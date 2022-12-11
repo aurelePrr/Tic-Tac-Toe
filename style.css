@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    max-width: 21rem;
+    margin: auto;
+}
+
+h1{
+    font-size: 1.8rem;
+    color: rgb(168, 121, 35);
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+.score{
+    display: flex;
+    justify-content: space-between;
+
+}
+.player-score{
+    color: rgb(42, 204, 69);
+}
+.ia-score{
+    color: rgb(170, 30, 30);
+}
+
+#game-board{
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    padding-top: 5rem;
+    margin: auto;
+    max-width: 20rem;
+}
+
+.cells{
+    border: 0.3rem solid rgb(39, 59, 39);
+    height: 6rem;
+    line-height: 5rem ;
+    font-size: 6rem;
+   
+}
+
+#restart{
+    font-size: 1.2rem;
+    font-style: italic;
+    color: white;
+    margin-top: 1rem;
+    width: 11rem;
+    height: 3rem;
+    border-radius: 0.8rem;
+    background-color: rgb(58, 24, 78);
+}
+#restart:hover{
+    background-color:rgb(113, 53, 148);
+}
+#restart:active{
+    background-color: rgb(174, 84, 226);
+}

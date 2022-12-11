@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="header">
+        <h1>TIC TAC TOE GAME</h1>
+        <div class="score">
+            <h3 class="player-score">Player Score :
+                <span id="player-count">0</span>
+            </h3>        
+            <h3 class="ia-score">IA Score :
+                <span id="ia-count">0</span>
+            </h3>
+        </div>        
+    </div>
+    <div id="game-board">
+            <div data-index="0" class="cells"></div>
+            <div data-index="1" class="cells"></div>
+            <div data-index="2" class="cells"></div>
+
+            <div data-index="3" class="cells"></div>
+            <div data-index="4" class="cells"></div>
+            <div data-index="5" class="cells"></div>
+
+            <div data-index="6" class="cells"></div>
+            <div data-index="7" class="cells"></div>
+            <div data-index="8" class="cells"></div>
+    </div>
+    <h2></h2>
+    <button type="button" id="restart">Recommencer</button>
+    <script src="app.js"></script>
+</body>
+</html>
