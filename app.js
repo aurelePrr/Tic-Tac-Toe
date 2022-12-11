@@ -82,7 +82,7 @@ function restart() {
     activePlayer.player = 'X'
     activeGame = true
     stateGame = ['', '', '', '', '', '', '', '', '']
-    statut = playerRoundMsg()
+    statut.innerHTML = playerRoundMsg()
     document.querySelectorAll('.cells').forEach(cell => cell.innerHTML = '')
    
 }
